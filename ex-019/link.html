@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: blue;
+            text-decoration: none;
+        }
+        a:active{
+            color: red;
+            text-decoration: underline;
+        }
+        a:visited{
+    color: saddlebrown;
+    
+        }
+        a::after{
+            content: '[olha]';
+        }
+        
+        a.terra{
+            color: blue;
+        }
+        #terra{
+            color:tomato;
+        }
+    </style>
+</head>
+<body>
+    <h1>sonalizamdo link</h1>
+    <ul>
+        <li><a href="http://www.terra.com.br" target="blank" id="terra" class="terra">linha</a></li>
+        <li><a href="http://www.youtube.com.br">linha</a></li>
+
+        <li><a href="http://www.animetv.com.br">linha</a></li>
+        <li><a href="http://www.globo.com.br">linha</a></li>
+      
+    </ul>
+</body>
+</html>
